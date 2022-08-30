@@ -181,11 +181,11 @@ export default {
     this.clearData();
     this.getQueryParams();
     if (this.spuId && this.catalogId) {
-      this.showBaseAttrs();
       this.getSpuBaseAttrs();
+      this.showBaseAttrs();
     }
   }
 };
 </script>
-<style scoped>
+<style>
 </style>
